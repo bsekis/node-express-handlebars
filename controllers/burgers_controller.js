@@ -51,7 +51,7 @@ const updateBurger = (burgerObj, burgerId) => {
         return resolve({ message: `Couldn't find a burger with that id!`, code: 404 });
       }
       //goes to promise's .then():
-      resolve({ messahe: 'Burger updated!', code: 200});
+      resolve({ message: 'Burger updated!', code: 200});
     });
   });
 }
@@ -70,7 +70,7 @@ const deleteBurger = burgerId => {
         return resolve({ message: `Couldn't find a burger with that id!`, code: 404 });
       }
       //goes to promise's .then():
-      resolve({ messahe: 'Burger deleted!', code: 200});
+      resolve({ message: 'Burger deleted!', code: 200});
     });
   });
 }

@@ -1,8 +1,8 @@
-// listen for form submission
+
 $('#burger-form').on('submit', function(event){
   event.preventDefault();
 
-  // collect burger data as an object
+
   const burgerData = {
     burger_name: $('[name=burger-name]')
       .val()
@@ -16,7 +16,7 @@ $('#burger-form').on('submit', function(event){
   })
   .then(response => {
     console.log(response);
-    location.reload(); // dounble check what this does
+    location.reload();
   });
 });
 
