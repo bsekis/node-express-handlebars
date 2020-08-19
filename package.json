@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bsekis/node-express-handlebars/issues"
   },
-  "homepage": "https://github.com/bsekis/node-express-handlebars#readme"
+  "homepage": "https://github.com/bsekis/node-express-handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
