@@ -8,11 +8,11 @@ require('dotenv').config();
 const connection = process.env.JAWSDB_URL
   ? mysql.createConnection(process.env.JAWSDB_URL)
   : mysql.createConnection({
-    host: 'localhost',
+    host: 'us-cdbr-east-02.cleardb.com',
     port: 3306,
-    user: process.env.DB_USER,
-    password: process.env.DB_PW,
-    database: process.env.DB_NAME
+    user: bc0dae49105ef7,
+    password: acb52a99,
+    database: heroku_4f4d3a323adc514
   });
 
   
